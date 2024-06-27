@@ -15,4 +15,4 @@ If the exercise gives to you some pointers for the arrays don't forgives to look
 
 ### 3. Make sure if you need to check all the list
 
-use for if yes, while if not.
+Use for if yes, while if not.
