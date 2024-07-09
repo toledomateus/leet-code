@@ -16,3 +16,7 @@ If the exercise gives to you some pointers for the arrays don't forgives to look
 ### 3. Make sure if you need to check all the list
 
 Use for if yes, while if not.
+
+### 4. If you are comparing 2 strings and you have to count something, try to resolve by a hashmap.
+
+For instance, see it if it's possible to form a specific string with the reference string, and so on. Possible you can use a hashmap to compare and you can avoid make a nested for looking into 2 list.
