@@ -20,3 +20,19 @@ Use for if yes, while if not.
 ### 4. If you are comparing 2 strings and you have to count something, try to resolve by a hashmap.
 
 For instance, see it if it's possible to form a specific string with the reference string, and so on. Possible you can use a hashmap to compare and you can avoid make a nested for looking into 2 list.
+
+### 5. If you have to split a function, use this:
+    ```py
+    words = []
+        word = ''
+        delimitation = ' '
+        for c in s:
+            if c not in delimitation:
+                word += c
+            elif word:
+                words.append(word)
+                word = ''
+
+        if word:
+            words.append(word)
+    ```
